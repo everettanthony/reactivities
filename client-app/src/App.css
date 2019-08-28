@@ -1,0 +1,31 @@
+.app {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 45px;
+}
+
+.boxlist {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.boxlist li {
+  align-items: center;
+  border: 1px solid #000;
+  display: flex;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 175px;
+  justify-content: center;
+  margin: 5px;
+  text-align: center;
+  width: 200px;
+}
+
+.boxlist li:hover {
+  background: #f8f8f8;
+}
