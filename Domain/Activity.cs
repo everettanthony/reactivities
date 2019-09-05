@@ -9,6 +9,7 @@ namespace Domain
         public string Description { get; set; }
         public string Category { get; set; }
         public DateTime Date { get; set; }
+        public string DateFormatted { get => Date.ToString("MMMM d, yyyy"); }
         public string City { get; set; }
         public string State { get; set; }
         public string Zip { get; set; }
